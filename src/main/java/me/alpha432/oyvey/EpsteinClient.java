@@ -9,12 +9,12 @@ import net.minecraft.SharedConstants;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class EpsteinClient implements ModInitializer, ClientModInitializer {
+public class OyVey implements ModInitializer, ClientModInitializer {
     public static final String NAME = "EpsteinClient";
     public static final String VERSION = SharedConstants.getCurrentVersion().name();
     public static float TIMER = 1f;
 
-    public static final Logger LOGGER = LogManager.getLogger("EpsteinClient");
+    public static final Logger LOGGER = LogManager.getLogger("OyVey");
     public static ServerManager serverManager;
     public static ColorManager colorManager;
     public static RotationManager rotationManager;
