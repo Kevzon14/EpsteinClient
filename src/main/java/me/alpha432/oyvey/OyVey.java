@@ -14,7 +14,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
     public static final String VERSION = SharedConstants.getCurrentVersion().name();
     public static float TIMER = 1f;
 
-    public static final Logger LOGGER = LogManager.getLogger("EpsteinClient");
+    public static final Logger LOGGER = LogManager.getLogger("OyVey");
     public static ServerManager serverManager;
     public static ColorManager colorManager;
     public static RotationManager rotationManager;
