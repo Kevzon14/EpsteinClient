@@ -18,7 +18,7 @@ public class Watermark extends HudModule {
         super.render(e);
 
         e.getContext().drawString(mc.font,
-                TextUtil.text("{global} %s {} %s", text.getValue(), EpsteinClient.VERSION),
+                TextUtil.text("{global} %s {} %s", text.getValue(), OyVey.VERSION),
                 (int) getX(), (int) getY(), -1);
 
         String watermarkString = text.getValue() + " " + EpsteinClient.VERSION;
