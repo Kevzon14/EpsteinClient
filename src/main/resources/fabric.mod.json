@@ -1,13 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "oyvey",
+  "id": "EpsteinClient",
   "version": "${version}",
-  "name": "oyvey-ported",
-  "description": "free and opensource client base",
+  "name": "EpsteinClient",
+  "description": "EpsteinClient made by helldev",
   "authors": [
-    "3arthqu4ke",
-    "alpha432",
-    "cattyn"
+    "helldev"
   ],
   "contact": {
     "repo": "https://github.com/mioclient/oyvey-ported"
