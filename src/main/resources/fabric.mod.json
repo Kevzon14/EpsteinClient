@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "EpsteinClient",
+  "id": "Epsteinclient",
   "version": "${version}",
   "name": "EpsteinClient",
   "description": "EpsteinClient made by helldev",
