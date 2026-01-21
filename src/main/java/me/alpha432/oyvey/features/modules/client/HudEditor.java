@@ -17,7 +17,7 @@ public class HudEditor extends Module {
             disable();
             return;
         }
-        mc.setScreen(EpsteinClient.hudEditorScreen);
+        mc.setScreen(OyVey.hudEditorScreen);
     }
 
     @Override
