@@ -21,7 +21,7 @@ public class Watermark extends HudModule {
                 TextUtil.text("{global} %s {} %s", text.getValue(), OyVey.VERSION),
                 (int) getX(), (int) getY(), -1);
 
-        String watermarkString = text.getValue() + " " + EpsteinClient.VERSION;
+        String watermarkString = text.getValue() + " " + OyVey.VERSION;
         setWidth(mc.font.width(watermarkString));
         setHeight(mc.font.lineHeight);
     }
